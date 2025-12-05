@@ -63,8 +63,8 @@ falcon-seedgen/
 
 ### **1. Clone the repository**
 ```bash
-git clone https://github.com/<yourname>/falcon-seedgen.git
-cd falcon-seedgen/c
+git clone https://github.com/prageeth-fndo/Falcon-SeedGen.git
+cd Falcon-SeedGen/c
 ```
 
 ### **2. Build the shared library**
@@ -128,10 +128,10 @@ Benefits:
 
 ## 🛡 Security Notes
 
-- ❗ This is **research software**, not production-hardened  
+- ❗ This is a **demo**, not production-hardened  
 - 🔒 Deterministic keys reduce entropy protections  
 - 🗝 Seed handling is the user’s responsibility  
-- 🚫 Do NOT use in real blockchain wallets without full threat modeling  
+- 🚫 Do NOT use in production environment without full threat modeling  
 
 ---
 
@@ -152,4 +152,4 @@ PQClean source code is included under its corresponding permissive licenses.
 ## ⭐ Support & Contributions
 
 Pull requests, performance improvements, seed-handling utilities, and Python enhancements are welcome.  
-If you build something cool on top of this—such as a **deterministic PQC wallet**—share it with the community!
+If you build something cool on top of this, share it with the community!
